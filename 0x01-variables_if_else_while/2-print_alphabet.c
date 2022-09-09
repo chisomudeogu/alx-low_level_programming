@@ -11,14 +11,11 @@ int	main(void)
 
 {
 
-		int	n;
+	char letter;
 
-		char	ch	=	'a';
-
-		while	(ch	<=	'z')
-		{
-			putchar("%c",	ch);
-			ch++;
-		}
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+	putchar('\n');
 		return (0);
 }
+
