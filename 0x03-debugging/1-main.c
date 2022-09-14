@@ -2,7 +2,6 @@
 
 /**
 * main - causes an infinite loop
-* @\\o/ - a character
 * Return: 0
 */
 
@@ -13,7 +12,6 @@ int i;
 printf("Infinite loop incoming :(\n");
 
 i = 0;
-
 /*
 * while (i < 10)
 * {
