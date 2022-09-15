@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
-* main - check the code.
-*
+* _isupper - check the code.
+*@c: character to be checked
 * Return: Always 0.
 */
-
-int main(void)
+int _isupper(int c);
 {
-	char c;
-
-	c = 'A';
-	_putchar("%c: %d\n", c, _isupper(c));
-	c = 'a';
-	_putchar("%c: %d\n", c, _isupper(c));
-	return (0);
+if ((c >= 'A') && (c <= 'Z'))
+{
+return (1);
+}
+else
+{
+return (0);
 }
