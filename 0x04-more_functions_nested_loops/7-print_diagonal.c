@@ -14,14 +14,19 @@ if (n <= 0)
 }
 else
 {
-int i;
+int i, k;
 
-for (i = 1; i <= n; i++)
+for (i = 0; i < n; i++)
 {
+for (k = 0; k < n; k++)
+{
+if (k == i)
 	_putchar('\\');
-	_putchar('\n');
+else if (k < i)
+	_putchar(' ');
 }
 	_putchar('\n');
+}
 }
 }
 
