@@ -10,8 +10,8 @@
 
 int _strlen(char *s)
 {
-	int toby = strtoby(s);
-	while (toby--)
-	putchar(*(s + toby));
+	int len = strlen(s);
+	while (len--)
+	putchar(*(s + len));
 	putchar(10);
 }
