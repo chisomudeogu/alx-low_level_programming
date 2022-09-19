@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#include <string.h>
+
 
 /**
 * rev_string - reverses a string
@@ -31,7 +31,7 @@ int _strlen(char *s)
 {
 	int len = 0;
 
-	while (*(s + len) != '\n')
+	while (*(s + len) != '\0')
 	len++;
 	return (len);
 }
