@@ -42,7 +42,7 @@ char *_strstr(char *haystack, char *needle)
 }
 	if (compare == 1)
 {
-	return (haystack + 1);
+	return (haystack + i);
 }
 	i++;
 }
