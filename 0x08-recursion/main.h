@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
+int prime2(int a, int b);
 int _sqrt(int n, int x);
 int _putchar(char);
 void _puts_recursion(char *s);
